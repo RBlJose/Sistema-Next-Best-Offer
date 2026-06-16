@@ -68,12 +68,12 @@ Power BI Dashboard (7 páginas · Ejecutivo + Técnico)
 ├── nbo_generador_sintetico.py          # Semana 2: Generador DAG causal
 ├── nbo_semana3_modelos.py              # Semana 3: XGBoost v1.0 + Platt Scaling
 ├── NBO_Semana4_Campana.py              # Semana 4: Pipeline de campaña completo
-├── NBO_Semana5_Backtesting.py       # Semana 5: Backtesting multi-período
-├── NBO_Semana6_Recalibracion.py     # Semana 6: Recalibración selectiva v1.1
-├── NBO_Semana7_Calibradores.py      # Semana 7: Validación operativa calibradores
+├── NBO_Semana5_Backtesting.py          # Semana 5: Backtesting multi-período
+├── NBO_Semana6_Recalibracion.py        # Semana 6: Recalibración selectiva v1.1
+├── NBO_Semana7_Calibradores.py         # Semana 7: Validación operativa calibradores
 ├── nbo_patch_clientes_features.py      # Semana 8: Patch región + features estacionales
 ├── nbo_regenerar_ofertas.py            # Semana 8: Regeneración con señal estacional
-├── nbo_semana8_modelo.py            # Semana 8: XGBoost v2.0 (8 features estacionales)
+├── nbo_semana8_modelo.py               # Semana 8: XGBoost v2.0 (8 features estacionales)
 ├── nbo_semana9_champion_challenger.py  # Semana 9: Experimento CC con bootstrap
 ├── NBO_Pasos1_7.docx                   # Documento de diseño del sistema
 ├── NBO_Informe_Final.docx              # Documento conclusivo del Poryecto 
@@ -228,7 +228,7 @@ pip install xgboost scikit-learn pandas numpy scipy joblib matplotlib python-dat
 
 ## 👤 Autor
 
-**Jose** — Data Scientist · Banking Analytics  
+**Jose Luis Rodriguez Batioja** — Data Scientist · Banking Analytics  
 Proyecto portfolio construido semana a semana como demostración de capacidades en MLOps bancario, modelado de propensión y arquitectura de sistemas de recomendación en entornos regulados.
 
 ---
