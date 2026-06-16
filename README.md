@@ -1,11 +1,11 @@
-# 🏦 Sistema NBO — Banco Pichincha
+# 🏦 Sistema NBO — RBlJosé
 ### Next Best Offer · Modelado de Propensión Multiproducto · Arquitectura MLOps Bancaria
 
 ---
 
 ## 📌 Descripción del Proyecto
 
-Sistema de recomendación bancaria (Next Best Offer) diseñado e implementado de extremo a extremo para **Banco Pichincha**, cubriendo 6 productos financieros, 20.000 clientes sintéticos y 25 meses de datos históricos. El proyecto simula un entorno de producción real con gobernanza de modelos, backtesting multi-período, recalibración selectiva y experimento Champion-Challenger con criterios de decisión económicamente fundamentados.
+Sistema de recomendación bancaria (Next Best Offer) diseñado e implementado de extremo a extremo para **RBlJosé**, cubriendo 6 productos financieros, 20.000 clientes sintéticos y 25 meses de datos históricos. El proyecto simula un entorno de producción real con gobernanza de modelos, backtesting multi-período, recalibración selectiva y experimento Champion-Challenger con criterios de decisión económicamente fundamentados.
 
 > **Nota:** Los datos utilizados son sintéticos, generados mediante un DAG causal calibrado con parámetros del mercado ecuatoriano (BCE 2024, INEC 2022). El sistema fue construido como portfolio técnico de nivel productivo.
 
@@ -68,14 +68,16 @@ Power BI Dashboard (7 páginas · Ejecutivo + Técnico)
 ├── nbo_generador_sintetico.py          # Semana 2: Generador DAG causal
 ├── nbo_semana3_modelos.py              # Semana 3: XGBoost v1.0 + Platt Scaling
 ├── NBO_Semana4_Campana.py              # Semana 4: Pipeline de campaña completo
-├── NBO_Semana5_Backtesting_v2.py       # Semana 5: Backtesting multi-período
-├── NBO_Semana6_Recalibracion_v2.py     # Semana 6: Recalibración selectiva v1.1
-├── NBO_Semana7_Calibradores_v2.py      # Semana 7: Validación operativa calibradores
+├── NBO_Semana5_Backtesting.py       # Semana 5: Backtesting multi-período
+├── NBO_Semana6_Recalibracion.py     # Semana 6: Recalibración selectiva v1.1
+├── NBO_Semana7_Calibradores.py      # Semana 7: Validación operativa calibradores
 ├── nbo_patch_clientes_features.py      # Semana 8: Patch región + features estacionales
 ├── nbo_regenerar_ofertas.py            # Semana 8: Regeneración con señal estacional
-├── nbo_semana8_modelo_v2.py            # Semana 8: XGBoost v2.0 (8 features estacionales)
+├── nbo_semana8_modelo.py            # Semana 8: XGBoost v2.0 (8 features estacionales)
 ├── nbo_semana9_champion_challenger.py  # Semana 9: Experimento CC con bootstrap
 ├── NBO_Pasos1_7.docx                   # Documento de diseño del sistema
+├── NBO_Informe_Final.docx              # Documento conclusivo del Poryecto 
+├── Monitoreo_del_modelo.pbix           # Documento conclusivo del Poryecto 
 └── models/                             # Modelos serializados (joblib + json)
 ```
 
